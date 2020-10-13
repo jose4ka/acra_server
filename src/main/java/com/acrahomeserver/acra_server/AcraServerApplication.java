@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AcraServerApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("console.encoding","utf-8");
 		SpringApplication.run(AcraServerApplication.class, args);
 	}
 
